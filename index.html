@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <script src="jquery-3.5.1.js"></script>
+  <script src="scripts.js"></script>
+  <title>Transportation Survery</title>
+</head>
+<body>
+  <h1>Transportation Survey</h1>
+  <form>
+    <div id="Q1">
+      <p>Which of these are your main forms of travel?</p>
+      <input type="checkbox" name="main-transport" value="bike" > Biking <br>
+      <input type="checkbox" name="main-transport" value="car"> Car <br>
+      <input type="checkbox" name="main-transport" value="walking"> Walking <br>
+      <input type="checkbox" name="main-transport" value="spaceship"> Spaceship <br>
+      <input type="checkbox" name="main-transport" value="airplane"> Airplane <br>
+    </div>
+
+    <div id="Q2" class="form-check">
+      <p>What are your main reasons for travel?</p>
+      <input type="checkbox" name="main-reasons" value="work"> Work <br>
+      <input type="checkbox" name="main-reasons" value="school"> School <br>
+      <input type="checkbox" name="main-reasons" value="groceries"> Groceries <br>
+      <input type="checkbox" name="main-reasons" value="social"> Socializing <br>
+      <input type="checkbox" name="main-reasons" value="family"> Visiting family or friends <br>
+    </div>
+
+
+    <div id="Q3" class="form-check">
+      <p>Which weekdays are busiest for you?</p>
+      <input type="checkbox" name="busiest-days" value="monday"> Monday <br>
+      <input type="checkbox" name="busiest-days" value="tuesday"> Tuesday <br>
+      <input type="checkbox" name="busiest-days" value="wednesday"> Wednesday <br>
+      <input type="checkbox" name="busiest-days" value="thursday"> Thursday <br>
+      <input type="checkbox" name="busiest-days" value="friday"> Friday <br>
+    </div>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <div class="answerContainer">
+    <div id="Q1Answer">
+    </div>
+
+    <div id="Q2Answer">
+    </div>
+
+    <div id="Q3Answer">
+    </div>
+  </div>
+</body>
+</html>
